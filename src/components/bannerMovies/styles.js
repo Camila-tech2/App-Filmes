@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     },
 
     imageBanner:{
-        width: '100%',
+        width: '85%',
         height: 200,
         marginTop: 15,
         borderRadius: 10
