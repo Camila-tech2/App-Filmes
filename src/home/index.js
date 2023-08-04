@@ -1,11 +1,11 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import Header from './src/components/header';
-import Search from './src/components/searchBar';
-import BannerMovies from './src/components/bannerMovies';
-import Filmes from './src/data/filmes'
-import Series from './src/data/series.js'
-import CardSeries from './src/components/cardSeries';
-import CardFilmes from './src/components/cardFilmes';
+import Header from '../components/header';
+import Search from '..components/searchBar';
+import BannerMovies from '../components/bannerMovies';
+import Filmes from '../data/filmes'
+import Series from '../data/series.js'
+import CardSeries from '../components/cardSeries';
+import CardFilmes from '../components/cardFilmes';
 
 export default function App() {
   return (
