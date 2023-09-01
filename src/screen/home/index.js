@@ -1,13 +1,13 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import Header from '../components/header';
-import Search from '..components/searchBar';
-import BannerMovies from '../components/bannerMovies';
-import Filmes from '../data/filmes'
-import Series from '../data/series.js'
-import CardSeries from '../components/cardSeries';
-import CardFilmes from '../components/cardFilmes';
+import Header from '../../components/header';
+import Search from '../../components/searchBar';
+import BannerMovies from '../../components/bannerMovies';
+import Filmes from '../../data/filmes'
+import Series from '../../data/series.js'
+import CardSeries from '../../components/cardSeries';
+import CardFilmes from '../../components/cardFilmes';
 
-export default function App() {
+export default function Home() {
   return (
     <View style={styles.container}>
       <Header></Header>
