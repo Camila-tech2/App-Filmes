@@ -4,7 +4,8 @@ const DATA =
         id:"01",
         nome:"Adão Negro",
         notas:'8,5',
-        imagem:'adao.jpg'
+        imagem:'adao.jpg',
+        sinopse: 'Adão Negro é uma entidade que há 5 mil anos recebeu os poderes ilimitados dos deuses egípcios. Depois de muito tempo, ele é finalmente libertado de sua tumba terrena e se dispõe a levar ao mundo o seu senso singular de justiça.'
     },
 
     {

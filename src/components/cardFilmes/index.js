@@ -1,13 +1,27 @@
-import React from "react";
-import {Image, Text, TouchableOpacity} from "react-native";
-import styles from "./style";
+import React from 'react'
+import {View,Image,Text,TouchableOpacity} from 'react-native';
+import styles from './style';
+import { useNavigation } from '@react-navigation/native';
 
-export default function CardFilmes({titulo,imagem,nota}) {
+export default function CardMovies({titulo,nota,imagem,sinopse}){
+
+    const navigation = useNavigation();
+
     return(
-        <TouchableOpacity style = {styles.containerJogos}>
-            <Image style = {styles.images} source  ={require (`../../Img/${imagem}`)} ></Image>
-            <Text style = {styles.titulo} >{titulo}</Text>
-            <Text style = {styles.textNota}>{nota}</Text>
-        </TouchableOpacity>
-    )
+     
+        <TouchableOpacity onPress = { () => navigation.navigate('details',{titulo:titulo,nota:nota,imagem:imagem,sinopse:sinopse}) } style={styles.containerJogos} >
+
+        <Image style={styles.images} source ={require(`../../Img/${imagem}`)} />
+        <Text style ={styles.titulo}>{titulo} </Text> 
+        
+        <Text style ={styles.textNota}> {nota} </Text>
+       
+       
+    </TouchableOpacity>
+
+  
+
+    );
+
+
 }
