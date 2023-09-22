@@ -12,63 +12,72 @@ const DATA =
         id:"02",
         nome:"Avatar",
         notas:'6,8',
-        imagem:'avatar.jpg'
+        imagem:'avatar.jpg',
+        sinopse:'...'
     },
 
     {
         id:"03",
         nome:"Desaparecida",
         notas:'7,5',
-        imagem:'desaparecida.jpg'
+        imagem:'desaparecida.jpg',
+        sinopse:'...'
     },
 
     {
         id:"04",
         nome:"Gato de Botas II",
         notas:'9,9',
-        imagem:'gato.jpg'
+        imagem:'gato.jpg',
+        sinopse:'...'
     },
 
     {
         id:"05",
         nome:"Homem Formiga e a Vespa",
         notas:'8,5',
-        imagem:'homemformiga.jpg'
+        imagem:'homemformiga.jpg',
+        sinopse:'...'
     },
 
     {
         id:"06",
         nome:"Incriveis",
         notas:'8,2',
-        imagem:'incriveis.jpg'
+        imagem:'incriveis.jpg',
+        sinopse:'...'
     },
 
     {
         id:"07",
         nome:"Mario",
         notas:'8,7',
-        imagem:'mario.jpg'
+        imagem:'mario.jpg',
+        sinopse:'...'
     },
 
     {
         id:"08",
         nome:"Megan",
         notas:'7,8',
-        imagem:'megan.jpg'
+        imagem:'megan.jpg',
+        sinopse:'...'
     },
 
     {
         id:"09",
         nome:"Pânico",
         notas:'8,4',
-        imagem:'panico.jpg'
+        imagem:'panico.jpg',
+        sinopse:'...'
     },
 
     {
         id:"10",
         nome:"Wandinha",
         notas:'4,2',
-        imagem:'wandinha.jpg'
+        imagem:'wandinha.jpg',
+        sinopse:'...'
     }
 ]
 
