@@ -8,13 +8,13 @@ export default function Details() {
   const routes = useRoute();
   return (
     <View style={styles.container}>
+     
       <Image
         style={styles.images}
         source={require(`../../Img/${routes.params.imagem}`)}
       />
-      <Text style={styles.titulo}> {routes.params.titulo} </Text>
-      <Text style={styles.titulo}>Sinopse </Text>
-      <Text>{routes.params.sinopse}</Text>
+      <Text style={styles.titulo}> Sinopse </Text>
+      <Text style={styles.text}>{routes.params.sinopse}</Text>
     </View>
   );
 }

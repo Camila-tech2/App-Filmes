@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screen/Home';
 import Details from '../screen/Details';
 
-export default function Routes(){
+export default function Routes() {
 
     const stack = createStackNavigator();
 
@@ -12,10 +12,19 @@ export default function Routes(){
         <NavigationContainer>
             <stack.Navigator>
 
-                <stack.Screen options={{headerShown: false}} name='home' component = {Home}/>
-                <stack.Screen options={{headerShown: true}} name='details' component = {Details}/>
+                <stack.Screen options={{ headerShown: false }} name='home' component={Home} />
+                <stack.Screen options={{
+                    title: '',
+                    headerStyle: {
+                        backgroundColor: '#141a29',
+                    },
+                    headerTintColor: '#fff',
+                    headerTitleStyle: {
+                        fontWeight: 'bold',
+                    },
+                }} name='details' component={Details} />
 
-                </stack.Navigator>
+            </stack.Navigator>
         </NavigationContainer>
     );
 }
