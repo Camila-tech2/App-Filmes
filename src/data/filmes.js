@@ -2,26 +2,26 @@ const DATA =
 [
     {
         id:"01",
-        nome:"Adão Negro",
+        nome:"Red: Crescer É uma Fera",
         notas:'8,5',
-        imagem:'adao.jpg',
-        sinopse: 'Adão Negro é uma entidade que há 5 mil anos recebeu os poderes ilimitados dos deuses egípcios. Depois de muito tempo, ele é finalmente libertado de sua tumba terrena e se dispõe a levar ao mundo o seu senso singular de justiça.'
+        imagem:'red.jpg',
+        sinopse: 'Em Red: Crescer É uma Fera, quando uma adolescente fica muito nervosa, ela se transforma em um grande panda vermelho. O longa aborda dessa forma, a jornada de amadurecimento da personagem, suas inseguranças dessa fase onde, a personagem principal está dividida entre a filha que sempre foi e sua nova personalidade, intensificada por todos os sentimentos conflitantes que a adolescência provoca. Além do caos gerado por todas as mudanças em seus interesses, relacionamentos e corpo, sempre que a garota fica muito agitada ou estressada, ela vira um panda vermelho gigante, - o que com certeza, só gera mais problemas para a jovem - sendo uma metáfora para todas as vezes que, constrangidos pelos novos desafios que se apresentam em nossas vidas, as inseguranças só se agigantam.'
     },
 
     {
         id:"02",
-        nome:"Avatar",
-        notas:'6,8',
-        imagem:'avatar.jpg',
-        sinopse:'Após dez anos da primeira batalha de Pandora entre os Navi e os humanos, Jake Sully (Sam Worthington) vive pacificamente com sua família e sua tribo. Ele e Neytiri formaram uma família e estão fazendo de tudo para ficarem juntos, devido a problemas conjugais e papéis que cada um tem que exercer dentro da tribo.'
+        nome:"Encanto",
+        notas:'8,0',
+        imagem:'encanto.jpg',
+        sinopse:'Encanto é o novo filme de animação da Disney, situada na Colômbia. Nela, a família Madrigal e a comunidade em volta da casa da família é cercada por montanhas, que os deixam protegidos dos maus do mundo. Porém, a família Madrigal é dotada de magia, com cada um dos integrantes da família tendo algum poder mágico que é usado para ajudar a comunidade. Apesar da família ser dotada de magia, apenas um integrante dela não recebeu seu dom quando tinha cinco anos, Mirabel, que sempre tenta ajudar a família e a comunidade como consegue, mas não importa o que faça, ela nunca consegue agradar sua Abuela. Um dia, na noite em que um de seus primos recebe seus dons, ela vê a casa da família rachando, algo que é relevado pela família, já que ela não tem poderes mágicos. Mirabel então parte em uma aventura própria para achar o que há de errado com a casa e salvar todos de sua família, e o único que pode dar as respostas é seu tio Bruno, que vê o futuro. O único problema é que ele saiu um dia e nunca mais voltou.'
     },
 
     {
         id:"03",
-        nome:"Desaparecida",
+        nome:"Viva a Vida é uma Festa",
         notas:'7,5',
-        imagem:'desaparecida.jpg',
-        sinopse:'Quando sua mãe Grace (Nia Long) desaparece enquanto estava de férias na Colômbia com seu novo namorado, a busca de June (Storm Reid) por respostas é prejudicada pela burocracia internacional. Embora os agentes Park (Daniel Henney) e Heather (Amy Landecker) assegurem à filha perturbada que estão fazendo tudo ao seu alcance, Grace continua desaparecida. Presa a milhares de quilômetros de distância em Los Angeles, June usa criativamente todas as tecnologias à sua disposição para encontrá-la antes que seja tarde demais. Conforme ela se aprofunda, suas investigações digitais levantam mais perguntas do que respostas. Não apenas a informação sobre o novo namorado de sua mãe, Kevin (Ken Leung), é mais do que preocupante. À medida que June descobre mais e mais mistérios sobre sua mãe, ela se pergunta o quanto você realmente sabe sobre as pessoas mais próximas a você.'
+        imagem:'viva.jpg',
+        sinopse: 'Em Viva - A Vida é uma Festa, Miguel é um menino de 12 anos que quer muito ser um músico famoso, mas ele precisa lidar com sua família que desaprova seu sonho. Determinado a virar o jogo, ele acaba desencadeando uma série de eventos ligados a um mistério de 100 anos. A aventura, com inspiração no feriado mexicano do Dia dos Mortos, acaba gerando uma extraordinária reunião familiar.'
     },
 
     {
@@ -34,10 +34,10 @@ const DATA =
 
     {
         id:"05",
-        nome:"Homem Formiga e a Vespa",
+        nome:"Luca",
         notas:'8,5',
-        imagem:'homemformiga.jpg',
-        sinopse:'Em Homem-Formiga e a Vespa: Quantumania, quando Cassie (Kathryn Newton), filha de Scott Lang (Paul Rudd), desenvolve um dispositivo que permitiria a comunicação com o reino quântico, o experimento termina em desastre: Cassie, Scott e sua companheira e heroína, Vespa, Hope van Dyne (Evangeline Lilly) involuntariamente se encontram no reino místico. Unindo forças com os pais de Hope, Hank Pym (Michael Douglas) e Janet van Dyne (Michelle Pfeiffer), o trio trabalha um caminho de volta enquanto os atrai para o misterioso mundo do Reino Quântico, onde encontram criaturas alienígenas e uma civilização oculta. Eles também descobrem que Janet, que ficou presa aqui por 30 anos, ainda esconde deles um ou dois segredos de seu passado: porque o misterioso Kang (Jonathan Majors), que tem a habilidade de passar, também está preso no quantum, a dimensão usada para viajar no tempo e no multiverso? E o mais importante: porque ele precisa da ajuda de Scott em uma missão importante? Será que o poderoso Kang pode ser confiável?'
+        imagem:'luca.jpg',
+        sinopse: 'Em Luca, acompanhamos o curioso monstro do mar chamado Luca, enquanto ele vive pastoreando alguns peixes e vive com os pais e a avó, que não o deixam chegar perto da superfície, já que lá habitam os humanos que podem matá-los. Em um dia qualquer, Luca, com muita curiosidade, acha alguns objetos que vieram da superfície e acaba conhecendo Alberto, outro monstro marinho e que coleciona objetos de humanos. Luca então decide ir com Alberto para superfície, onde ele percebe que ao entrar em contato com a terra, fica com corpo de humano e consegue andar, mas ao tocar na água suas escamas voltam. Ficando apaixonado pela amizade e por coisas que os humanos criaram, Luca e Alberto combinam de ir para a vila mais próxima e conseguir uma Vespa, assim poderão viajar o mundo. Eles conhecem Júlia, uma garota humana e seu pai, e se estufam de gelattos e massas enquanto não podem falar quem realmente são. '
     },
 
     {
@@ -58,18 +58,18 @@ const DATA =
 
     {
         id:"08",
-        nome:"M3gan",
-        notas:'7,8',
-        imagem:'megan.jpg',
-        sinopse:'Em M3gan, seguimos uma jovem garota chamada Cady, que teve seus pais mortos em um acidente de carro e é deixado sob os cuidados de sua tia Gemma, uma roboticista de uma empresa high-tech de brinquedos de criança em Seattle. Gemma trabalha no desenvolvimento chamado M3GAN, um robô humanoide, designada para ajudar a criança e ser companhia para elas. Mas após um teste que ocorreu mal, o projeto foi cancelado. Sem ter alguma conexão com a sobrinha e sempre sendo workaholic, Gemma presenteia M3gan para a sobrinha após ela querer a "boneca". O modelo finalizado é emparelhado com Cady, e convence a empresa do potencial de sucesso do projeto após observar as interações de M3GAN com Cady. À medida que o tempo passa, M3gan acaba ficando mais independente e andando pela casa sem qualquer ordem, além de matar qualquer coisa que ela considere uma ameaça para Cady. Mas os dias passam e M3gan pode parecer mais uma ameaça para Cady e Gemma do que imaginado.'
+        nome:"Soul",
+        notas:'8,8',
+        imagem:'soul.jpg',
+        sinopse: 'Em Soul, duas perguntas se destacam: Você já se perguntou de onde vêm sua paixão, seus sonhos e seus interesses? O que é que faz de você... Você? Joe Gardner é um professor de música do ensino médio que sempre sonhou em ser músico de jazz. Mas quando, finalmente, tem a chance de impressionar outros músicos durante um ensaio aberto, sofre um acidente que faz com que sua alma seja separada de seu corpo e transportada para um centro no qual as almas se desenvolvem e ganham paixões antes de serem enviadas para um recém-nascido. Joe deve trabalhar com 22, uma das almas em treinamento, que tem uma visão obscura da vida depois de ficar presa por anos no centro evitando seguir para a Terra.'
     },
 
     {
         id:"09",
-        nome:"Pânico",
+        nome:"Divertida Mente",
         notas:'8,4',
-        imagem:'panico.jpg',
-        sinopse:'Sam (Melissa Barrera), Tara (Jenna Ortega), Mindy (Jasmin Savoy Brown) e Chad (Mason Gooding) estão fartos. Depois de sobreviver ao massacre final de Ghostface em Woodsboro, os quatro se mudam sem cerimônia para Nova York. Lá, os dois irmãos querem começar uma nova vida, por assim dizer, e deixar a pequena cidade e suas experiências traumáticas para trás. Mas o maldito assassino com uma máscara de fantasma e uma lâmina afiada não pode ser abalado tão facilmente, porque de repente ele também aparece na Big Apple. Na rua, no metrô, no supermercado – aparentemente em todos os lugares ele aproveita a agitação da cidade grande para desaparecer na multidão com a mesma rapidez com que apareceu antes. E embora Sam, Tara, Mindy e Chad já tenham conhecido o assassino, desta vez eles não podem confiar em sua experiência. Porque quem está por trás da máscara tem novos truques na manga.'
+        imagem:'divertidamente.jpg',
+        sinopse: 'Riley é uma garota divertida de 11 anos de idade, que deve enfrentar mudanças importantes em sua vida quando seus pais decidem deixar a sua cidade natal, no estado de Minnesota, para viver em San Francisco. Dentro do cérebro de Riley, convivem várias emoções diferentes, como a Alegria, o Medo, a Raiva, o Nojinho e a Tristeza. A líder deles é Alegria, que se esforça bastante para fazer com que a vida de Riley seja sempre feliz. Entretanto, uma confusão na sala de controle faz com que ela e Tristeza sejam expelidas para fora do local. Agora, elas precisam percorrer as várias ilhas existentes nos pensamentos de Riley para que possam retornar à sala de controle - e, enquanto isto não acontece, a vida da garota muda radicalmente.'
     },
 
     {
