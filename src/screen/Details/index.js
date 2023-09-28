@@ -3,7 +3,7 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useRoute, useNavigation } from "@react-navigation/native";
 import styles from "./style";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import Stars from "react-native-stars";
+import Estrelas from "../../components/estrelas";
 
 export default function Details() {
   const routes = useRoute();
@@ -15,7 +15,7 @@ export default function Details() {
         style={styles.images}
         source={require(`../../Img/${routes.params.imagem}`)}
       />
-      <Stars />
+      <Estrelas nota={routes.params.nota} />
       <Text style={styles.titulo}> Sinopse </Text>
       <Text style={styles.text}>{routes.params.sinopse}</Text>
       <TouchableOpacity
