@@ -21,7 +21,7 @@ const DATA = [
     id: "03",
     nome: "Viva a Vida é uma Festa",
     notas: 7.5,
-    imagem: "viva.jpg",
+    imagem: "vivaQ.jpg",
     sinopse:
       "Em Viva - A Vida é uma Festa, Miguel é um menino de 12 anos que quer muito ser um músico famoso, mas ele precisa lidar com sua família que desaprova seu sonho. Determinado a virar o jogo, ele acaba desencadeando uma série de eventos ligados a um mistério de 100 anos. A aventura, com inspiração no feriado mexicano do Dia dos Mortos, acaba gerando uma extraordinária reunião familiar.",
   },
@@ -66,7 +66,7 @@ const DATA = [
     id: "08",
     nome: "Soul",
     notas: 8.8,
-    imagem: "soul.jpg",
+    imagem: "soulQ.jpg",
     sinopse:
       "Em Soul, duas perguntas se destacam: Você já se perguntou de onde vêm sua paixão, seus sonhos e seus interesses? O que é que faz de você... Você? Joe Gardner é um professor de música do ensino médio que sempre sonhou em ser músico de jazz. Mas quando, finalmente, tem a chance de impressionar outros músicos durante um ensaio aberto, sofre um acidente que faz com que sua alma seja separada de seu corpo e transportada para um centro no qual as almas se desenvolvem e ganham paixões antes de serem enviadas para um recém-nascido. Joe deve trabalhar com 22, uma das almas em treinamento, que tem uma visão obscura da vida depois de ficar presa por anos no centro evitando seguir para a Terra.",
   },

@@ -9,7 +9,7 @@ export default function Header(){
          <TouchableOpacity> 
         <Feather style={{marginLeft:-72}} name="menu" size={36} color="white" />
         </TouchableOpacity>  
-        <Text style = {styles.textHeader}>  TEC FILMES  </Text> 
+        <Text style = {styles.textHeader}>  ANIMA FILMES </Text> 
 
         </View>
     );

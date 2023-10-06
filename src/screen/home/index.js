@@ -3,9 +3,24 @@ import BannerMovies from "../../components/bannerMovies";
 import CardMovies from "../../components/cardFilmes";
 import Header from "../../components/header";
 import SearchBar from "../../components/searchbar";
+import React,{useState,useEffect} from 'react';
 import Filmes from "../../data/filmes";
 
 export default function App() {
+
+const [movies,setMovies] = useState([]);
+
+useEffect(()=>{
+  async function buscarFilmes(){
+    const response = await fetch('https://api.themoviedb.org/3/movie/now_playing?api_key=853de9e5cc41e54c12036de70ba4e5cb&language=pt-br');
+    const data = await response.json();
+    console.log(data.results);
+    setMovies(data.results);
+  }
+
+  buscarFilmes();
+},[])
+
   return (
     <View style={styles.container}>
       <Header></Header>
