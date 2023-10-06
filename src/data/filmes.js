@@ -3,7 +3,7 @@ const DATA = [
     id: "01",
     nome: "Red: Crescer É uma Fera",
     notas: 8.5,
-    imagem: "red.jpg",
+    imagem: "redQ.png",
     sinopse:
       "Em Red: Crescer É uma Fera, quando uma adolescente fica muito nervosa, ela se transforma em um grande panda vermelho. O longa aborda dessa forma, a jornada de amadurecimento da personagem, suas inseguranças dessa fase onde, a personagem principal está dividida entre a filha que sempre foi e sua nova personalidade, intensificada por todos os sentimentos conflitantes que a adolescência provoca. Além do caos gerado por todas as mudanças em seus interesses, relacionamentos e corpo, sempre que a garota fica muito agitada ou estressada, ela vira um panda vermelho gigante, - o que com certeza, só gera mais problemas para a jovem - sendo uma metáfora para todas as vezes que, constrangidos pelos novos desafios que se apresentam em nossas vidas, as inseguranças só se agigantam.",
   },
@@ -12,7 +12,7 @@ const DATA = [
     id: "02",
     nome: "Encanto",
     notas: 8.0,
-    imagem: "encanto.jpg",
+    imagem: "encantoQ.png",
     sinopse:
       "Encanto é o novo filme de animação da Disney, situada na Colômbia. Nela, a família Madrigal e a comunidade em volta da casa da família é cercada por montanhas, que os deixam protegidos dos maus do mundo. Porém, a família Madrigal é dotada de magia, com cada um dos integrantes da família tendo algum poder mágico que é usado para ajudar a comunidade. Apesar da família ser dotada de magia, apenas um integrante dela não recebeu seu dom quando tinha cinco anos, Mirabel, que sempre tenta ajudar a família e a comunidade como consegue, mas não importa o que faça, ela nunca consegue agradar sua Abuela. Um dia, na noite em que um de seus primos recebe seus dons, ela vê a casa da família rachando, algo que é relevado pela família, já que ela não tem poderes mágicos. Mirabel então parte em uma aventura própria para achar o que há de errado com a casa e salvar todos de sua família, e o único que pode dar as respostas é seu tio Bruno, que vê o futuro. O único problema é que ele saiu um dia e nunca mais voltou.",
   },
